@@ -116,7 +116,7 @@ It should mostly work since tkinter and pynput are cross-platform, but honestly,
 
 ## Contributing
 
-See [contributing.md](contributing) for guidelines.
+See [contributing.txt](contributing) for guidelines.
 
 ## License
 
