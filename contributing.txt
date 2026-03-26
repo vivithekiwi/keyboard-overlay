@@ -1,0 +1,43 @@
+Contributing
+
+Hey, thanks for considering helping out! I built this to fix my own awful typing habits, so if you've got ideas to make it better, I'm all ears.
+Fair warning upfront: I'm not a seasoned developer by any means. This is a simple project and I'd like to keep it that way. That said, if you want to contribute, here's how:
+
+1. Found a bug?
+Open an issue and try to include:
+
+Your Windows version (e.g. Windows 10 22H2)
+Your Python version (run python --version in your terminal)
+What you expected to happen
+What actually happened
+Steps to reproduce the problem
+
+Even if you can't figure out all of the above, please still open the issue. A rough description is better than no report at all.
+
+2. Got a feature idea?
+Open an issue with [Feature] at the start of the title. Describe what you'd like and why you think it would be useful. I can't promise I'll implement everything, but I'd love to hear what people want.
+
+3. Want to submit code?
+
+Fork the repo
+Create a branch (git checkout -b my-feature)
+Make your changes
+Test that the overlay still launches and captures keys correctly
+Commit with a clear message (git commit -m "Add support for function keys")
+Push to your fork (git push origin my-feature)
+Open a Pull Request
+
+Please keep things simple. This is a single-file project on purpose. Use clear variable names, add comments for anything non-obvious, and test before submitting.
+
+4. Things we could expand on
+I haven't tested this outside of my own Windows 10 desktop, so there's plenty of room for contributions:
+
+macOS / Linux compatibility testing and fixes
+Additional keyboard layouts (AZERTY, QWERTZ, Dvorak, Colemak)
+Function key row (F1-F12)
+Arrow keys and navigation cluster
+Configurable key size / scaling
+System tray icon with a settings menu
+Auto-start on Windows boot
+
+If you tackle any of these, you're pretty cool. Thanks :>
