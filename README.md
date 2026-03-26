@@ -116,7 +116,7 @@ It should mostly work since tkinter and pynput are cross-platform, but honestly,
 
 ## Contributing
 
-See [contributing.txt](contributing) for guidelines.
+See [contributing](https://github.com/vivithekiwi/keyboard-overlay/blob/main/contributing.txt) for guidelines.
 
 ## License
 
